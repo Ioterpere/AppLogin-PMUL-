@@ -7,35 +7,35 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txt_Usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/txt_Usuario"
         android:inputType="textPersonName"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintBottom_toTopOf="@+id/txt_Contrasenha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/txt_Contrasenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoText="false"
         android:ems="10"
         android:hint="@string/txt_Contrasenha"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnEntrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Usuario" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEntrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnEntrar"
@@ -43,6 +43,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Contrasenha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
