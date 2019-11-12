@@ -7,7 +7,7 @@ public class Estructura_BD {
 
     public static final String TABLE_NAME = "Usuarios";
     public static final String CAMPO_ID = "Id_Usuario";
-    public static final String CAMPO_NOMBRE = "Nombre";
+    public static final String CAMPO_NOMBRE = "Usuario";
     public static final String CAMPO_CONTRASENHA = "Contrasenha";
 
 
